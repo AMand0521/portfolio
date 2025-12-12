@@ -27,8 +27,8 @@ const contactMethods = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/Trevin-Faulkner',
-    href: 'https://linkedin.com/in/Trevin-Faulkner',
+    value: 'linkedin.com/in/trevin-faulkner-220092394',
+    href: 'https://linkedin.com/in/trevin-faulkner-220092394/',
     bg: 'bg-blue-800',
     iconColor: 'text-white',
   },
