@@ -86,26 +86,6 @@ const About = () => {
               {/* Skill Categories */}
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Mastery</h4>
-                  <div className="space-y-2">
-                    {['React', 'Next.js', 'TypeScript', 'Tailwind CSS'].map((skill, index) => (
-                      <div key={skill} className="flex items-center justify-between">
-                        <span className="text-sm text-muted-foreground">{skill}</span>
-                        <div className="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
-                          <div 
-                            className="h-full bg-gradient-to-r from-blue-400 to-purple-500 rounded-full transition-all duration-1000 ease-out"
-                            style={{ 
-                              width: `${85 + (index * 3)}%`,
-                              animationDelay: `${index * 200}ms`
-                            }}
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                  <div>
                   <h4 className="text-sm font-semibold text-blue-400 mb-3">Backend Expertise</h4>
                   <div className="space-y-2">
                     {['Python', 'Node.js', 'PHP', 'GraphQL'].map((skill, index) => (
@@ -117,6 +97,26 @@ const About = () => {
                             style={{ 
                               width: `${80 + (index * 4)}%`,
                               animationDelay: `${(index + 4) * 200}ms`
+                            }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Mastery</h4>
+                  <div className="space-y-2">
+                    {['React', 'Next.js', 'TypeScript', 'Tailwind CSS'].map((skill, index) => (
+                      <div key={skill} className="flex items-center justify-between">
+                        <span className="text-sm text-muted-foreground">{skill}</span>
+                        <div className="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
+                          <div 
+                            className="h-full bg-gradient-to-r from-blue-400 to-purple-500 rounded-full transition-all duration-1000 ease-out"
+                            style={{ 
+                              width: `${85 + (index * 3)}%`,
+                              animationDelay: `${index * 200}ms`
                             }}
                           />
                         </div>

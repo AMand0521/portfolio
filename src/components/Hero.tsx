@@ -11,7 +11,7 @@ const Hero = () => {
   // Replace 'YOUR_FILE_ID' with your actual Google Drive file ID
   // To get the file ID: Upload your PDF to Google Drive, make it public, 
   // then copy the ID from the URL: https://drive.google.com/file/d/FILE_ID_HERE/view
-  const GOOGLE_DRIVE_FILE_ID = '136lzERQObXSq1NBq5QEwobZf0IoSOLsG'; // Replace with your actual file ID
+  const GOOGLE_DRIVE_FILE_ID = '1UFFLxqXAMzWgoaBjHuKI4AZeo3-gpl2E'; // Replace with your actual file ID
 
   const handleResumeView = () => {
     window.open(`https://drive.google.com/file/d/${GOOGLE_DRIVE_FILE_ID}/preview`, '_blank');
