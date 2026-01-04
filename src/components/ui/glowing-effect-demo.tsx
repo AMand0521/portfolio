@@ -68,7 +68,7 @@ const microProjectsData = [
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     tags: ["AI", "React", "Node.js", "NLP", "Machine Learning"],
     demoUrl: "https://example.com/demo1",
-    githubUrl: "https://github.com/Trevin-Faulkner/ai-task-manager"
+    githubUrl: "https://github.com/AMand0521/ai-task-manager"
   },
   {
     title: "EventRaze",
@@ -76,15 +76,15 @@ const microProjectsData = [
     image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     tags: ["PHP", "Postgres", "HTML", "CSS", "JavaScript", "XAMPP"],
     demoUrl: undefined,
-    githubUrl: "https://github.com/Trevin-Faulkner/EventRaze"
+    githubUrl: "https://github.com/AMand0521/EventRaze"
   },
   {
     title: "Weather Forecast",
     description: "Real-time <span class='gradient-highlight'>weather tracking</span> with <span class='gradient-highlight'>OpenWeatherMap API</span> and <span class='gradient-highlight'>forecast predictions</span>.",
     image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     tags: ["React", "OpenWeatherMap API", "CSS", "Weather API", "Forecast"],
-    demoUrl: "https://weather-app-trevin.netlify.app/",
-    githubUrl: "https://github.com/Trevin-Faulkner/Weather-App"
+    demoUrl: "https://weather-app-andrii.netlify.app/",
+    githubUrl: "https://github.com/AMand0521/Weather-App"
   },
   {
     title: "YouTube Short VS Long Analyzer",
@@ -92,7 +92,7 @@ const microProjectsData = [
     image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80",
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Radix UI", "React Query", "React Router", "Framer Motion", "Recharts"],
     demoUrl: undefined,
-    githubUrl: "https://github.com/Trevin-Faulkner/YT_Analyzer"
+    githubUrl: "https://github.com/AMand0521/YT_Analyzer"
   },
   {
     title: "Pomodoro Timer",
@@ -100,7 +100,7 @@ const microProjectsData = [
     image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     tags: ["React", "Timer", "Productivity", "Stats"],
     demoUrl: "https://pomo-focus-eta.vercel.app/",
-    githubUrl: "https://github.com/Trevin-Faulkner/PomoFocus"
+    githubUrl: "https://github.com/AMand0521/PomoFocus"
   },
   {
     title: "AI Job Advisor",
@@ -108,7 +108,7 @@ const microProjectsData = [
     image: "/lovable-uploads/Job-Advisor.png",
     tags: ["Axios", "OpenAI GPT-4", "React", "Node.js"],
     demoUrl: "https://yourjobadvisor.netlify.app/",
-    githubUrl: "https://github.com/Trevin-Faulkner/AI_Job_Advisor"
+    githubUrl: "https://github.com/AMand0521/AI_Job_Advisor"
   }
 ].filter(project => project.title !== "AI Content Platform");
 

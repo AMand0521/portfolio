@@ -12,61 +12,57 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     id: 1,
-    year: "Jan 2023 – Oct 2025",
-    title: "Senior Backend Developer – Turing Enterprises Inc., Remote",
-    // description: `Will architect and launch a scalable SaaS platform for YouTube creators, targeting 10,000+ concurrent users with high-availability APIs. Will integrate YouTube Data API v3 to deliver real-time analytics and actionable insights with sub-200ms latency. Will enable modular, containerized deployments and interactive dashboards, aiming for a 40%+ increase in user engagement and robust multi-tier access control.`,
-    description: `Successfully helped scale backend infrastructure to support rapid growth in user base and client demand — enabling Turing to onboard a large number of developers and companies.
-
-                  Reduced time-to-hire by automating vetting and matching backend workflows, shortening hiring cycles from weeks/months to days.
-                  
-                  Improved reliability and performance of matching and job-dispatch systems, contributing to increased client satisfaction and developer retention.
-
-                  Contributed to backend architecture that supported remote-first workflows and global scale, enabling developers worldwide to collaborate under consistent APIs and services.`,
+    year: "Jul 2023 – Nov 2025",
+    title: "Senior Backend Developer – Limestone Digital, Hybrid",    
+    description: `• Built and maintained backend services and APIs using Python, Django, FastAPI to support scalable business applications.
+                  • Designed server-side logic and data models to power integrations and application features.
+                  • Integrated third-party systems and internal data sources to deliver seamless backend workflows.
+                  • Ensured performance, reliability, and secure data handling for production systems.
+                  • Collaborated with cross-functional teams in Agile delivery cycles to deliver end-to-end solutions.
+                  • Supported CI/CD deployments and cloud-based environments to streamline releases.
+                  • Contributed to code reviews, best practices, and backend architectural decisions.
+`,
     type: "experience"
   },
   {
     id: 2,
-    year: "Jun. 2020 – Oct 2022",
-    title: "Senior Backend Developer - Platinex Inc.",
-    description: `Successfully overhauled backend data systems to support scaling exploration-project data and investor-relations content without sacrificing performance.
-
-                  Reduced document publication turnaround time and minimized errors in investor-facing disclosures by automating backend workflows.
-
-                  Enhanced backend security and compliance by enforcing authentication, secure file access, and audit logging.
-
-                  Maintained high site uptime even during high-traffic periods (e.g. press releases, stock-market announcements), preserving investor trust and data availability.`,
+    year: "Nov 2021 – Jun 2023",
+    title: "Backend Developer - OAK’S LAB",
+    description: `• Contributed to backend architecture and server‑side development for client projects.
+                  • Built and maintained RESTful APIs and service logic to support web and mobile applications.
+                  • Integrated data workflows and third‑party services to deliver seamless system interaction.
+                  • Ensured performance, scalability, and reliability of backend systems.
+                  • Collaborated with frontend, QA, and product teams in cross‑functional delivery.
+                  • Implemented secure authentication, authorization, and data handling best practices.
+                  • Participated in deployment and CI/CD process improvements.
+                  • Followed Agile methodologies to deliver quality production‑ready software.`,
     type: "experience"
   },
   {
     id: 3,
-    year: "Jan 2018 - Mar 2020",
-    title: "Backend Developer - MentorCruise",
-    description: `Launched a robust mentor-mentee matching and payment infrastructure, enabling X+ active mentors and Y+ mentees globally.
-
-                  Reduced API latency / improved backend performance by optimizing queries / caching / refactoring core services.
-
-                  Increased platform stability and decreased downtime by establishing automated testing and continuous integration / continuous deployment.
-
-                  Implemented strong security and data-protection standards, contributing to user trust and compliance with privacy best practices.`,
-    type: "education"
+    year: "Jun 2019 - Oct 2021",
+    title: "Backend Developer - Amgrade",
+    description: `• Built and maintained robust backend systems using Python and Django/FastAPI to power product features and integrations.
+                  • Designed and implemented RESTful APIs consumed by web and mobile clients.
+                  • Architected data models and workflows to support complex business logic and reporting needs.
+                  • Ensured high performance and reliability through monitoring, profiling, and query optimization.
+                  • Developed secure authentication and authorization layers aligned with industry standards.
+                  • Collaborated cross‑functionally with product, frontend, and DevOps teams to deliver end‑to‑end solutions.
+                  • Deployed and supported applications in cloud environments using Docker, Kubernetes, and CI/CD pipelines.
+                  • Participated in sprint planning, code reviews, and continuous improvement of development processes.`,
+    type: "experience"
   },
   {
     id: 4,
-    year: "Mar 2015 - Dec 2017",
-    title: "Backend Developer - Trakstar",
-    description: `Supported the backend development of Trakstar Hire, an applicant-tracking platform used by companies to manage hiring workflows.
-
-                  Helped build APIs and backend features for job postings, candidate tracking, and interview scheduling.
-
-                  Assisted with debugging, fixing issues, and improving backend performance.
-
-                  Worked with senior developers on database updates, schema changes, and code refactoring.
-
-                  Integrated basic third-party services such as email tools and job-board connections under team guidance.
-
-                  Collaborated with frontend, QA, and product teams to deliver updates and test new features.
-
-                  Helped monitor the system, review logs, and troubleshoot production issues.`,
+    year: "Jan 2017 - May 2019",
+    title: "Backend Developer - A.P.R.O. Software",
+    description: `• Developed scalable backend services and RESTful APIs using Python, Django, and FastAPI.
+                  • Integrated third-party services and internal systems for seamless data flow.
+                  • Optimized database queries and caching strategies, improving performance and reducing response times by 30%.
+                  • Implemented secure authentication, authorization, and data protection mechanisms.
+                  • Collaborated with frontend, QA, and DevOps teams in Agile and CI/CD environments.
+                  • Built production-ready systems with high availability, reliability, and scalability.
+`,
     type: "education"
   }
 ];
@@ -95,7 +91,7 @@ const About = () => {
                           <div 
                             className="h-full bg-gradient-to-r from-green-400 to-blue-500 rounded-full transition-all duration-1000 ease-out"
                             style={{ 
-                              width: `${80 + (index * 4)}%`,
+                              width: `${index == 0 ? 100 : 80 + (index * 4)}%`,
                               animationDelay: `${(index + 4) * 200}ms`
                             }}
                           />

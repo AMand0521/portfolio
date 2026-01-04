@@ -11,24 +11,24 @@ const contactMethods = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'trevinkeithfaulkner@gmail.com',
-    href: 'mailto:trevinkeithfaulkner@gmail.com',
+    value: 'andriimandziak0@gmail.com',
+    href: 'mailto:andriimandziak0@gmail.com',
     bg: 'bg-blue-700',
     iconColor: 'text-white',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/Trevin-Faulkner',
-    href: 'https://github.com/Trevin-Faulkner',
+    value: 'github.com/AMand0521',
+    href: 'https://github.com/AMand0521',
     bg: 'bg-gray-700',
     iconColor: 'text-white',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/trevin-faulkner-220092394',
-    href: 'https://linkedin.com/in/trevin-faulkner-220092394/',
+    value: 'linkedin.com/in/andrii-mandziak-2961223a2',
+    href: 'https://linkedin.com/in/andrii-mandziak-2961223a2/',
     bg: 'bg-blue-800',
     iconColor: 'text-white',
   },
@@ -117,7 +117,7 @@ const DeveloperStats = () => (
         <div className="flex justify-center">
           <div id="SocailIcons" className="relative">
             {/* Instagram */}
-            <a href="https://instagram.com/Trevin-Faulkner" target="_blank" rel="noopener noreferrer" className="icons instaIcon group">
+            <a href="https://instagram.com/AMand0521" target="_blank" rel="noopener noreferrer" className="icons instaIcon group">
               <span className="iconName">Instagram</span>
               <div className="icon insta">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -127,7 +127,7 @@ const DeveloperStats = () => (
             </a>
 
             {/* LinkedIn */}
-            <a href="https://linkedin.com/in/trevin-faulkner-220092394" target="_blank" rel="noopener noreferrer" className="icons linkedin group">
+            <a href="https://linkedin.com/in/andrii-mandziak-2961223a2" target="_blank" rel="noopener noreferrer" className="icons linkedin group">
               <span className="iconName">LinkedIn</span>
               <div className="icon link">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -137,7 +137,7 @@ const DeveloperStats = () => (
             </a>
 
             {/* Telegram */}
-            <a href="https://t.me/JackDavid31" target="_blank" rel="noopener noreferrer" className="icons linkedin group">
+            <a href="https://t.me/AMand00031" target="_blank" rel="noopener noreferrer" className="icons linkedin group">
               <span className="iconName">Telegram</span>
               <div className="icon link">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@ const DeveloperStats = () => (
             </a>
 
             {/* YouTube */}
-            {/* <a href="https://www.youtube.com/@Trevin-Faulkner" target="_blank" rel="noopener noreferrer" className="icons youtube group">
+            {/* <a href="https://www.youtube.com/@AMand0521" target="_blank" rel="noopener noreferrer" className="icons youtube group">
               <span className="iconName">YouTube</span>
               <div className="icon tube">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

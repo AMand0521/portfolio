@@ -34,13 +34,13 @@ const Footer = () => {
             {/* Left side - Logo and copyright */}
             <div className="flex items-center space-x-4 mb-4 md:mb-0">
               <img 
-                src="/lovable-uploads/T.png" 
-                alt="Trevin Logo" 
+                src="/lovable-uploads/AM.png" 
+                alt="Andrii Logo" 
                 className="h-10 w-10"
               />
               <div>
                 <p className="text-gray-400 text-sm">
-                  © {currentYear} Trevin Faulkner. All rights reserved.
+                  © {currentYear} Andrii Mandziak. All rights reserved.
                 </p>
                 <p className="text-gray-500 text-xs mt-1">
                   Built with <Heart className="inline w-3 h-3 text-red-500" /> and <Code2 className="inline w-3 h-3 text-blue-500" />

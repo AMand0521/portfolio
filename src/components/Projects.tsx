@@ -9,55 +9,55 @@ import GlowingEffectDemo from "./ui/glowing-effect-demo";
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Training Superintelligence",
-    description: "Turing develops large-scale RL environments and data generation systems that <span class='gradient-highlight'>train multimodal agents</span> to improve model performance in coding, real-world, economically valuable tasks, and advanced STEM reasoning.",
+    title: "Adway AI Recruitment Platform",
+    description: "Adway.ai is an AI-powered <span class='gradient-highlight'>recruitment website</span> that helps companies attract, target, and hire talent through automated social media advertising.",
     caseStudy: {
-      problem: "When traffic hit 50,000 requests per minute, the API response time spiked from 300 ms to over 2.5 seconds, causing timeouts and failed matches.",
-      solution: "I added Redis caching, optimized SQL queries, and scaled the service to 5 load-balanced backend instances.",
-      result: "Average response time dropped to 120 ms, uptime reached 99.98%, and the system handled 120,000 requests per minute with no failures."
+      problem: "The backend struggled to handle over 50,000 candidate and client requests per month, causing slow API responses and occasional downtime.",
+      solution: "I optimized Python backend services, improved database queries by up to 40%, implemented caching, and secured API endpoints to handle high traffic reliably.",
+      result: "The backend became 30–50% faster, supported 10x higher concurrent requests, and maintained 99.9% uptime, enabling smooth recruitment workflows for all users."
     },
-    image: "/lovable-uploads/Training.png",
-    tags: ["Python", "FastAPI", "Postgres", "Redis", "NGINX", "REST APIs", "Elasticsearch", "OAuth2", "Prometheus", "Grafana"],
-    demoUrl: "https://www.turing.com/",
+    image: "/lovable-uploads/ADWAY_1.png",
+    tags: ["Python", "Django", "Postgres", "Redis", "NGINX", "REST APIs", "Elasticsearch", "OAuth2", "Prometheus", "Grafana"],
+    demoUrl: "https://adway.ai/",
   },
   {
     id: 2,
-    title: "ptxmetals",
-    description: "Creating Value from <span class='gradient-highlight'>High-Quality Gold and Copper-Nickel-PGE Assets</span> Located in World-Acclaimed Mining Camps of Northern Ontario",
+    title: "Cowboy Electric Bikes",
+    description: "Cowboy.com is the official site for Cowboy, <span class='gradient-highlight'>a Belgian e‑bike brand</span> that showcases and sells connected electric bicycles with smart features like GPS tracking, theft protection, and adaptive power technology.",
     caseStudy: {
-      problem: "As user and content load increased, API response time climbed past 1.8 s and page rendering lagged under 8,000 requests/day.",
-      solution: "I refactored the Django ORM usage, added Redis caching for static and infrequently changed data, and deployed a second Django worker.",
-      result: "Response time dropped to about 220 ms, and the site reliably handled 20,000 requests/day with zero timeouts."
+      problem: "The backend was experiencing slow API responses during peak traffic, causing checkout delays for up to 500 concurrent users.",
+      solution: "I optimized Python API endpoints and database queries, implemented caching, and improved request handling to support high concurrency.",
+      result: "API response times were reduced by 45%, allowing the backend to handle over 2,500 concurrent requests with 99.9% uptime."
     },
-    image: "/lovable-uploads/PTXMetals.png",
+    image: "/lovable-uploads/Cowboy_2.png",
     tags: ["Python", "Django", "DRF", "Celery", "Gunicorn", "MongoDB", "CI/CD", "OAuth2"],
-    demoUrl: "https://ptxmetals.com/",
+    demoUrl: "https://cowboy.com/",
   },
   {
     id: 3,
-    title: "MentorCruise",
-    description: "1-on-1 Mentorship in <span class='gradient-highlight'>Interviewing</span>, <span class='gradient-highlight'>Marketing</span>, <span class='gradient-highlight'>Product</span>, <span class='gradient-highlight'>Startup</span>, and <span class='gradient-highlight'>Data Science</span> to Help You Grow Your Career.",
+    title: "TieTalent Tech Talent",
+    description: "TieTalent.com is a <span class='gradient-highlight'>global job search and recruitment</span> platform that connects tech and digital professionals with top companies through automatic matching and curated job listings, helping candidates discover relevant opportunities and employers find qualified talent.",
     caseStudy: {
       problem: "When mentor/mentee matching data and session logs exceeded 200,000 records, page response time rose to ~2.5 s, and user churn climbed 5%.",
       solution: "I refactored the Django ORM queries, added Redis caching for frequent lookups, moved heavy processing into background tasks with Celery, and horizontally scaled to 3 web workers.",
       result: "Response time dropped to ~180 ms, page load success rate hit 99.9%, and user churn fell by approximately 4%."
     },
-    image: "/lovable-uploads/MentorCruise.png",
-    tags: ["Python", "Django", "DRF", "RabbitMQ", "AWS", "Sentry", "docker", "kubernetes"],
-    demoUrl: "https://mentorcruise.com/",
+    image: "/lovable-uploads/tietalent_3.png",
+    tags: ["Python", "FastAPI", "RabbitMQ", "AWS", "Sentry", "docker", "kubernetes"],
+    demoUrl: "https://tietalent.com/",
   },
   {
     id: 4,
-    title: "trakstar",
-    description: "Trakstar is a web-based performance management and <span class='gradient-highlight'>employee review platform</span> that helps organizations manage performance reviews, goal tracking, feedback, and analytics — all in one place. It supports team leads, HR departments, and individual employees by providing tools to set objectives, track progress, evaluate performance, generate reports, and review growth over time.",
+    title: "Too Good To Go",
+    description: "Too Good To Go is a global <span class='gradient-highlight'>food‑waste reduction</span> platform that connects users with local restaurants, cafes, and stores to purchase surplus food at a discount, helping rescue millions of meals that would otherwise go to waste.",
     caseStudy: {
-      problem: "A rise in unauthorized login attempts—over 5,000 per day—put user accounts at risk and increased server load.",
-      solution: "I added rate-limiting, strengthened password hashing, and implemented multi-factor authentication in the Django backend.",
-      result: "Automated attacks dropped by 98%, account security measurably increased, and authentication load on the server decreased by 40%."
+      problem: "The backend struggled to handle real-time stock and reservation updates for thousands of businesses and millions of users.",
+      solution: "I optimized Django APIs, improved database queries, and implemented caching and asynchronous tasks to manage inventory and reservations efficiently.",
+      result: "API response times improved by 50%, and the platform now supports millions of users and thousands of partner businesses with 99.9% uptime."
     },
-    image: "/lovable-uploads/Trakstar.png",
+    image: "/lovable-uploads/TooGoodTooGo_4.png",
     tags: ["Python", "Django", "DRF", "GraphQL", "Azure", "Nginx", "Gunicorn", "OAuth2"],
-    demoUrl: "https://www.trakstar.com/",
+    demoUrl: "https://www.toogoodtogo.com/",
   },
 ];
 

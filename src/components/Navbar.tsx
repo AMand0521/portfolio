@@ -54,8 +54,8 @@ const Navbar = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-900 rounded-full blur-2xl opacity-60 group-hover:opacity-90 transition-all duration-500"></div>
             </div>
             <img 
-              src="/lovable-uploads/T.png" 
-              alt="Trevin Logo" 
+              src="/lovable-uploads/AM.png" 
+              alt="Andrii Logo" 
               className="h-14 w-14 relative z-10" 
             />
           </a>
